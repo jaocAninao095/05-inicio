@@ -1,0 +1,36 @@
+body {
+    background-image: url(assets/índice.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    background-color: rgb(166, 215, 235);
+    color: rgb(12, 98, 173);
+    border: none;   
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+tr th {
+    text-align: justify;
+}
+td, th {
+    border-bottom: 2px solid black;
+    
+}
+tr:nth-child(even){
+    background-color: rgb(129, 230, 243);
+}
+tr:hover {
+  background-color: rgb(135, 255, 229);  
+}
+.iconos {
+    text-align: end;
+}
+#p {
+    width: 50%;
+}
+header {
+    display: inline;
+}

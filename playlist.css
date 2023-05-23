@@ -1,11 +1,11 @@
 body {
-    background-image: url(assets/índice.jpeg);
+    background-image: url(assets/wp7699142.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 table {
-    background-color: rgb(166, 215, 235);
-    color: rgb(12, 98, 173);
+    background-color: #f7feff;
+    color: rgb(236, 141, 200);
     border: none;   
     border-collapse: collapse;
     width: 100%;
@@ -16,21 +16,37 @@ tr th {
     text-align: justify;
 }
 td, th {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
     
 }
 tr:nth-child(even){
-    background-color: rgb(129, 230, 243);
+    background-color: #8cdfee;
 }
 tr:hover {
-  background-color: rgb(135, 255, 229);  
+  background-color: #caf0f8;  
 }
 .iconos {
     text-align: end;
+    font-weight: lighter;
+    font-size: 30px;
 }
 #p {
     width: 50%;
 }
 header {
-    display: inline;
+    display: flex;
+    display: center center;
+}
+.thsss {
+    font-size: 30px;
+    font-weight: 900px;
+}
+.imgs {
+    width: 60px;
+    height: 60px;
+}
+.cancion {
+    font-weight: 900;
+    font-size: 10px;
 }
